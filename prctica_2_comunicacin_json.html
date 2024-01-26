@@ -5,8 +5,9 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Práctica 2 | Taller. Comunicaciones LoRa con ESP32 STEAMakers y Arduinoblocks </title>
+<title>Práctica 2. Comunicación JSON | Taller. Comunicaciones LoRa con ESP32 STEAMakers y Arduinoblocks </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Pedro Ruiz Fernández" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
 <!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
@@ -23,20 +24,42 @@
 <ul>
    <li><a href="index.html" class="daddy main-node">Taller Comunicaciones LoRa con ESP32 STEAMakers y Arduinoblocks</a></li>
    <li><a href="materiales_para_un_grupo.html" class="no-ch">Materiales para un grupo</a></li>
-   <li><a href="prctica_1.html" class="no-ch">Práctica 1</a></li>
-   <li id="active"><a href="prctica_2.html" class="active no-ch">Práctica 2</a></li>
-   <li><a href="prctica_3.html" class="no-ch">Práctica 3</a></li>
-   <li><a href="prctica_4.html" class="no-ch">Práctica 4</a></li>
+   <li><a href="prctica_1_comunicacin_simple.html" class="no-ch">Práctica 1. Comunicación simple</a></li>
+   <li id="active"><a href="prctica_2_comunicacin_json.html" class="active no-ch">Práctica 2. Comunicación JSON</a></li>
+   <li><a href="prctica_3_datalogger_remoto.html" class="no-ch">Práctica 3. Datalogger remoto</a></li>
+   <li><a href="prctica_4_telecomandado.html" class="no-ch">Práctica 4. Telecomandado</a></li>
 </ul>
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="prctica_1.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="prctica_3.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="prctica_1_comunicacin_simple.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="prctica_3_datalogger_remoto.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
-<header id="nodeDecoration"><h1 id="nodeTitle">Práctica 2</h1></header>
+<header id="nodeDecoration"><h1 id="nodeTitle">Práctica 2. Comunicación JSON</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id7">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Formato JSON</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta7_120_2" class="block iDevice_content">
+<div class="exe-text"><p>JSON (JavaScript Object Notation), es un formato estructurado para guardar e intercambiar información, sobre todo se usa en comunicaciones servidor cliente.</p>
+<p>Hay dos elementos fundamentales en un objeto JSON: claves (Keys) y valores (Values).</p>
+<ul>
+<li>Las claves (Keys) deben ser cadenas de caracteres (strings). Estas contienen una secuencia de caracteres, empiezan y terminan con comillas, son la cabecera o identificación del dato que quiero registrar.</li>
+<li>Los valores (Values) son un tipo de datos JSON válido. Puede tener la forma de array, objeto, cadena, booleano, número o nulo. Se separan de su pareja Keys por dos puntos (:).<br />Un objeto JSON comienza y termina con llaves {}, y está formado por parejas claves/valor, separados por una coma. Además, cada clave (key) es seguida por dos puntos que lo separa del valor (values).</li>
+</ul>
+<p>La sintaxis de un objeto JSON si los valores (values) son numéricos sería:</p>
+<p>{“key”:value,“key”:value,“key”:value}</p>
+<p>En el caso de nuestro ejemplo siguiente lo que hacemos es mandar y recibir los valores numéricos de Temperatura y humedad del emisor a receptor, en formato JSON.</p>
+<p>Cada trama de datos podría ser algo parecido al siguiente ejemplo:</p>
+<p><strong>{"t":23.50,"h":41.00}</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
 <article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id4">
 <div class="iDevice emphasis1" >
 <header class="iDevice_header"><h1 class="iDeviceTitle">Tarea</h1></header>
@@ -64,7 +87,7 @@
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="prctica_1.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="prctica_3.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="prctica_1_comunicacin_simple.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="prctica_3_datalogger_remoto.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>

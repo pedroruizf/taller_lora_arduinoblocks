@@ -5,8 +5,9 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Práctica 3 | Taller. Comunicaciones LoRa con ESP32 STEAMakers y Arduinoblocks </title>
+<title>Práctica 1. Comunicación simple | Taller. Comunicaciones LoRa con ESP32 STEAMakers y Arduinoblocks </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Pedro Ruiz Fernández" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
 <!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
@@ -15,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
-<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-2"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <header id="header" ><div id="headerContent">Taller. Comunicaciones LoRa con ESP32 STEAMakers y Arduinoblocks</div></header>
@@ -23,36 +24,34 @@
 <ul>
    <li><a href="index.html" class="daddy main-node">Taller Comunicaciones LoRa con ESP32 STEAMakers y Arduinoblocks</a></li>
    <li><a href="materiales_para_un_grupo.html" class="no-ch">Materiales para un grupo</a></li>
-   <li><a href="prctica_1.html" class="no-ch">Práctica 1</a></li>
-   <li><a href="prctica_2.html" class="no-ch">Práctica 2</a></li>
-   <li id="active"><a href="prctica_3.html" class="active no-ch">Práctica 3</a></li>
-   <li><a href="prctica_4.html" class="no-ch">Práctica 4</a></li>
+   <li id="active"><a href="prctica_1_comunicacin_simple.html" class="active no-ch">Práctica 1. Comunicación simple</a></li>
+   <li><a href="prctica_2_comunicacin_json.html" class="no-ch">Práctica 2. Comunicación JSON</a></li>
+   <li><a href="prctica_3_datalogger_remoto.html" class="no-ch">Práctica 3. Datalogger remoto</a></li>
+   <li><a href="prctica_4_telecomandado.html" class="no-ch">Práctica 4. Telecomandado</a></li>
 </ul>
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="prctica_2.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="prctica_4.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="materiales_para_un_grupo.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="prctica_2_comunicacin_json.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
-<header id="nodeDecoration"><h1 id="nodeTitle">Práctica 3</h1></header>
-<article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id5">
+<header id="nodeDecoration"><h1 id="nodeTitle">Práctica 1. Comunicación simple</h1></header>
+<article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id3">
 <div class="iDevice emphasis1" >
 <header class="iDevice_header"><h1 class="iDeviceTitle">Tarea</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
-<div id="ta5_120_2" class="block iDevice_content">
-<div class="pbl-task-description"><p>Emitir en formato JSON Temperatura y humedad de DHT22 de placa emisora. Recibir en placa receptora en formato JSON los datos emitidos y mostrarlos en una OLED 0.96”, para posteriormente graficarlos en puerto serie.</p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Ayuda" /></div><div class="feedback js-feedback js-hidden"><p>Conexionado Emisor:</p>
-<p>El sensor DHT22 se puede conectar a cualquier pin digital libre (IO26, IO25, IO17 e IO16).</p>
-<p><img src="esp32_lora_dht22_bb.png" alt="lora dht22" title="lora dht22" width="700" height="621" /></p>
-<p><a href="http://www.arduinoblocks.com/web/project/1552424" target="_blank" rel="noopener">Programa emisor</a>:</p>
-<p><img src="arduinoblocks_p3e.png" alt="p3 e" title="p3 e" width="700" height="317" /></p>
+<div id="ta3_123_2" class="block iDevice_content">
+<div class="pbl-task-description"><p>Emitir la potencia de la placa base emisora, y mostrar el dato cada segundo en la pantalla oled del receptor. Los datos no se envían tratados.</p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Ayuda" /></div><div class="feedback js-feedback js-hidden"><p>Conexionado Emisor:</p>
+<p><img src="esp32_lora_bb.png" alt="lora" title="lora" width="517" height="700" /></p>
+<p><a href="http://www.arduinoblocks.com/web/project/1549114" target="_blank" rel="noopener">Programa emisor</a>:</p>
+<p><img src="arduinoblocks_p1e.png" alt="p1 e" title="p1 e" width="699" height="465" /></p>
 <p>Conexionado receptor:</p>
 <p><img src="esp32_lora_oled_bb.png" alt="lora oled" title="lora oled" width="507" height="700" /></p>
-<p><a href="http://www.arduinoblocks.com/web/project/1552425" target="_blank" rel="noopener">Programa receptor</a>:</p>
-<p><img src="arduinoblocks_p3r.png" alt="p3 r" title="p3 r" width="700" height="359" /></p>
-<p></p>
+<p><a href="http://www.arduinoblocks.com/web/project/1552068">Programa receptor</a>:</p>
+<p><img src="arduinoblocks_p1r.png" alt="p1 r" title="p1 r" width="700" height="554" /></p>
 <p></p>
 <p></p></div>
 </div>
@@ -67,7 +66,7 @@
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="prctica_2.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="prctica_4.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="materiales_para_un_grupo.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="prctica_2_comunicacin_json.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>
