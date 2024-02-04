@@ -85,9 +85,9 @@
   <string role="key" value="_name"></string>
   <unicode value="lora_esp32_ablocks"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="8"></int>
+  <int value="10"></int>
   <string role="key" value="_nextNodeId"></string>
-  <int value="6"></int>
+  <int value="8"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
@@ -195,7 +195,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="304"></int>
+                  <int value="7591"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -209,7 +209,7 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="0_120_2.5"></unicode>
+                <unicode value="0_120_2.11"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="5">
                  <dictionary>
@@ -220,7 +220,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="conexion_lora.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="/tmp/tmpGqQoDf/conexion_lora.png"></string>
+                  <string value="/tmp/tmpddXK2V/conexion_lora.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="e8df63ae516d030b640b30bc83ee14c7"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -249,7 +249,7 @@
            <string role="key" value="intlinks_to_anchors"></string>
            <dictionary></dictionary>
            <string role="key" value="nextImageId"></string>
-           <int value="6"></int>
+           <int value="12"></int>
            <string role="key" value="parentNode"></string>
            <reference key="4"></reference>
           </dictionary>
@@ -397,12 +397,12 @@
 &lt;td style=&quot;width: 2.42131%; height: 10px;&quot;&gt;2&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 10px;&quot;&gt;
-&lt;td style=&quot;width: 18.9359%; height: 10px;&quot;&gt;DHT22&lt;/td&gt;
+&lt;td style=&quot;width: 18.9359%; height: 10px;&quot;&gt;DHT22 o DHT11&lt;/td&gt;
 &lt;td style=&quot;width: 2.42131%; height: 10px;&quot;&gt;1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 10px;&quot;&gt;
 &lt;td style=&quot;width: 18.9359%; height: 10px;&quot;&gt;Oled 0,96&quot;&lt;/td&gt;
-&lt;td style=&quot;width: 2.42131%; height: 10px;&quot;&gt;1&lt;/td&gt;
+&lt;td style=&quot;width: 2.42131%; height: 10px;&quot;&gt;2&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 10px;&quot;&gt;
 &lt;td style=&quot;width: 18.9359%; height: 10px;&quot;&gt;Dupont hembra-hembra de 10 cm&lt;/td&gt;
@@ -414,6 +414,10 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;width: 18.9359%;&quot;&gt;Tira de neopixel de 8 LEDs&lt;/td&gt;
+&lt;td style=&quot;width: 2.42131%;&quot;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 18.9359%;&quot;&gt;Sensor de Micropartículas PM2.5&lt;/td&gt;
 &lt;td style=&quot;width: 2.42131%;&quot;&gt;1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -571,16 +575,12 @@
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Emitir la potencia de la placa base emisora, y mostrar el dato cada segundo en la pantalla oled del receptor. Los datos no se envían tratados.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Ayuda&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;Conexionado Emisor:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/esp32_lora_bb.png&quot; alt=&quot;lora&quot; title=&quot;lora&quot; width=&quot;517&quot; height=&quot;700&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1549114&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa emisor&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p1e.png&quot; alt=&quot;p1 e&quot; title=&quot;p1 e&quot; width=&quot;699&quot; height=&quot;465&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Conexionado receptor:&lt;/p&gt;
+              <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Emitir la potencia de la placa base emisora, y mostrar el dato cada segundo en la pantalla oled del emisor y receptor. Los datos no se envían tratados.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Ayuda&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;Conexionado emisor y receptor:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/esp32_lora_oled_bb.png&quot; alt=&quot;lora oled&quot; title=&quot;lora oled&quot; width=&quot;507&quot; height=&quot;700&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1552068&quot;&gt;Programa receptor&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p1r.png&quot; alt=&quot;p1 r&quot; title=&quot;p1 r&quot; width=&quot;700&quot; height=&quot;554&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1571240&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa emisor&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p1e.png&quot; alt=&quot;p1 e&quot; title=&quot;p1 e&quot; width=&quot;700&quot; height=&quot;254&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1571246&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa receptor&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p1r.png&quot; alt=&quot;p1 r&quot; title=&quot;p1 r&quot; width=&quot;700&quot; height=&quot;680&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
               <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -600,7 +600,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="302"></int>
+                     <int value="7592"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -614,7 +614,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="3_123_2.26"></unicode>
+                   <unicode value="3_123_2.49"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="12">
                     <dictionary>
@@ -623,11 +623,11 @@
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
-                     <string value="esp32_lora_bb.png"></string>
+                     <string value="arduinoblocks_p1e.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/esp32_lora_bb.png"></string>
+                     <string value="/tmp/tmpddXK2V/arduinoblocks_p1e.png"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="a210def00cee89a6fad14e7ed1b589c5"></string>
+                     <string value="856f0f03594c8bb2adabd629deeb45f5"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -652,7 +652,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="308"></int>
+                     <int value="7599"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -666,7 +666,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="3_123_2.27"></unicode>
+                   <unicode value="3_123_2.50"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="13">
                     <dictionary>
@@ -675,11 +675,11 @@
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
-                     <string value="esp32_lora_oled_bb.png"></string>
+                     <string value="arduinoblocks_p1r.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/esp32_lora_oled_bb.png"></string>
+                     <string value="/tmp/tmpddXK2V/arduinoblocks_p1r.png"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="c779f51550d7851d540ec2b1085e955d"></string>
+                     <string value="38398efdf65cbd004405b8e502709572"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -704,7 +704,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="314"></int>
+                     <int value="7603"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -718,7 +718,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="3_123_2.28"></unicode>
+                   <unicode value="3_123_2.51"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="14">
                     <dictionary>
@@ -727,63 +727,11 @@
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
-                     <string value="arduinoblocks_p1r.png"></string>
+                     <string value="esp32_lora_oled_bb.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/arduinoblocks_p1r.png"></string>
+                     <string value="/tmp/tmpddXK2V/esp32_lora_oled_bb.png"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="7a98ec669d15d16e6fe8c1a597bf720b"></string>
-                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-                     <int value="2"></int>
-                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-                     <int value="2"></int>
-                     <string role="key" value="warningMsg"></string>
-                     <string value=""></string>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="_parent"></string>
-                   <reference key="10"></reference>
-                   <string role="key" value="_thumbnailResource"></string>
-                   <none></none>
-                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="makeThumbnail"></string>
-                   <bool value="0"></bool>
-                  </dictionary>
-                 </instance>
-                 <instance class="exe.engine.galleryidevice.GalleryImage">
-                  <dictionary>
-                   <string role="key" value="_caption"></string>
-                   <instance class="exe.engine.field.TextField">
-                    <dictionary>
-                     <string role="key" value="_id"></string>
-                     <int value="317"></int>
-                     <string role="key" value="_idevice"></string>
-                     <none></none>
-                     <string role="key" value="_instruc"></string>
-                     <string value=""></string>
-                     <string role="key" value="_name"></string>
-                     <string value=""></string>
-                     <string role="key" value="content"></string>
-                     <string value=""></string>
-                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                     <int value="4"></int>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="_id"></string>
-                   <unicode value="3_123_2.29"></unicode>
-                   <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="15">
-                    <dictionary>
-                     <string role="key" value="_idevice"></string>
-                     <reference key="9"></reference>
-                     <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
-                     <string role="key" value="_storageName"></string>
-                     <string value="arduinoblocks_p1e.png"></string>
-                     <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/arduinoblocks_p1e.png"></string>
-                     <string role="key" value="checksum"></string>
-                     <string value="a1278046a52957918626c3991fab5dc7"></string>
+                     <string value="c779f51550d7851d540ec2b1085e955d"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -810,7 +758,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="30"></int>
+              <int value="52"></int>
               <string role="key" value="parentNode"></string>
               <reference key="11"></reference>
              </dictionary>
@@ -839,7 +787,6 @@
             <reference key="12"></reference>
             <reference key="13"></reference>
             <reference key="14"></reference>
-            <reference key="15"></reference>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
@@ -866,13 +813,13 @@
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="18">
+      <instance class="exe.engine.node.Node" reference="17">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Práctica 2. Comunicación JSON"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="16">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="15">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Formato JSON"></unicode>
@@ -933,12 +880,12 @@
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="17">
+            <instance class="exe.engine.field.TextAreaField" reference="16">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="120_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="16"></reference>
+              <reference key="15"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -973,7 +920,7 @@
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="17"></reference>
+                <reference key="16"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -981,7 +928,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="18"></reference>
+              <reference key="17"></reference>
              </dictionary>
             </instance>
            </list>
@@ -998,7 +945,7 @@
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="18"></reference>
+           <reference key="17"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -1009,7 +956,7 @@
            <int value="0"></int>
           </dictionary>
          </instance>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="19">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="18">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Task"></unicode>
@@ -1070,12 +1017,12 @@
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="20">
+            <instance class="exe.engine.field.TextAreaField" reference="19">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="120_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="19"></reference>
+              <reference key="18"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -1085,15 +1032,14 @@
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Placa emisora emite cada segundo temperatura de placa y potencia en W, en formato JSON. La placa receptora recibe en formato JSON los datos emitidos y los muestra en pantalla OLED de 0.96”.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Ayuda&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;Conexionado emisor:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/esp32_lora_bb.png&quot; alt=&quot;lora&quot; title=&quot;lora&quot; width=&quot;517&quot; height=&quot;700&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1552199&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa emisor&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p2e.png&quot; alt=&quot;p2 e&quot; title=&quot;p2 e&quot; width=&quot;699&quot; height=&quot;314&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Conexionado receptor:&lt;/p&gt;
+              <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Placa emisora emite cada segundo temperatura de placa y potencia en W, en formato JSON y los muestra en su pantalla OLED cada tres segundos. La placa receptora recibe en formato JSON los datos emitidos y los muestra en pantalla OLED de 0.96”.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Ayuda&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;Conexionado emisor y receptor:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/esp32_lora_oled_bb.png&quot; alt=&quot;lora oled&quot; title=&quot;lora oled&quot; width=&quot;507&quot; height=&quot;700&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1552201&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa receptor&lt;/a&gt; :&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p2r.png&quot; alt=&quot;p2 r&quot; title=&quot;p2 r&quot; width=&quot;700&quot; height=&quot;342&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1571262&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa emisor&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p2e.png&quot; alt=&quot;p2 e&quot; title=&quot;p2 e&quot; width=&quot;700&quot; height=&quot;513&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1571277&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa receptor JSON sin tratar&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p2r_a.png&quot; alt=&quot;p2 ra&quot; title=&quot;p2 ra&quot; width=&quot;700&quot; height=&quot;663&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1571283&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa receptor JSON tratado&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p2r_b.png&quot; alt=&quot;p2 rb&quot; title=&quot;p2 rb&quot; width=&quot;700&quot; height=&quot;544&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
               <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1113,7 +1059,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="303"></int>
+                     <int value="7596"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1127,20 +1073,20 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="4_120_2.19"></unicode>
+                   <unicode value="4_120_2.47"></unicode>
                    <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="21">
+                   <instance class="exe.engine.resource.Resource" reference="20">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="19"></reference>
+                     <reference key="18"></reference>
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
-                     <string value="esp32_lora_bb.png"></string>
+                     <string value="arduinoblocks_p2e.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/esp32_lora_bb.png"></string>
+                     <string value="/tmp/tmpddXK2V/arduinoblocks_p2e.png"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="a210def00cee89a6fad14e7ed1b589c5"></string>
+                     <string value="324fa331dacc51b5bd46fd0fcc93dc32"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -1150,7 +1096,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="20"></reference>
+                   <reference key="19"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -1165,7 +1111,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="309"></int>
+                     <int value="7598"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1179,18 +1125,122 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="4_120_2.20"></unicode>
+                   <unicode value="4_120_2.48"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="21">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="18"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="arduinoblocks_p2r_b.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="/tmp/tmpddXK2V/arduinoblocks_p2r_b.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="77874db72ae64a7d435d4565d4502dd0"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="19"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="7601"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="4_120_2.49"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="22">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="19"></reference>
+                     <reference key="18"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="arduinoblocks_p2r_a.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="/tmp/tmpddXK2V/arduinoblocks_p2r_a.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="432a853aee3d0ff76a11fe4a168a00af"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="19"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="7604"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="4_120_2.50"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="23">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="18"></reference>
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="esp32_lora_oled_bb.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/esp32_lora_oled_bb.png"></string>
+                     <string value="/tmp/tmpddXK2V/esp32_lora_oled_bb.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="c779f51550d7851d540ec2b1085e955d"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1202,111 +1252,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="20"></reference>
-                   <string role="key" value="_thumbnailResource"></string>
-                   <none></none>
-                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="makeThumbnail"></string>
-                   <bool value="0"></bool>
-                  </dictionary>
-                 </instance>
-                 <instance class="exe.engine.galleryidevice.GalleryImage">
-                  <dictionary>
-                   <string role="key" value="_caption"></string>
-                   <instance class="exe.engine.field.TextField">
-                    <dictionary>
-                     <string role="key" value="_id"></string>
-                     <int value="311"></int>
-                     <string role="key" value="_idevice"></string>
-                     <none></none>
-                     <string role="key" value="_instruc"></string>
-                     <string value=""></string>
-                     <string role="key" value="_name"></string>
-                     <string value=""></string>
-                     <string role="key" value="content"></string>
-                     <string value=""></string>
-                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                     <int value="4"></int>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="_id"></string>
-                   <unicode value="4_120_2.21"></unicode>
-                   <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="23">
-                    <dictionary>
-                     <string role="key" value="_idevice"></string>
-                     <reference key="19"></reference>
-                     <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
-                     <string role="key" value="_storageName"></string>
-                     <string value="arduinoblocks_p2r.png"></string>
-                     <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/arduinoblocks_p2r.png"></string>
-                     <string role="key" value="checksum"></string>
-                     <string value="5367b7f24edfa3b204017310f1c61dcc"></string>
-                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-                     <int value="2"></int>
-                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-                     <int value="2"></int>
-                     <string role="key" value="warningMsg"></string>
-                     <string value=""></string>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="_parent"></string>
-                   <reference key="20"></reference>
-                   <string role="key" value="_thumbnailResource"></string>
-                   <none></none>
-                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="makeThumbnail"></string>
-                   <bool value="0"></bool>
-                  </dictionary>
-                 </instance>
-                 <instance class="exe.engine.galleryidevice.GalleryImage">
-                  <dictionary>
-                   <string role="key" value="_caption"></string>
-                   <instance class="exe.engine.field.TextField">
-                    <dictionary>
-                     <string role="key" value="_id"></string>
-                     <int value="313"></int>
-                     <string role="key" value="_idevice"></string>
-                     <none></none>
-                     <string role="key" value="_instruc"></string>
-                     <string value=""></string>
-                     <string role="key" value="_name"></string>
-                     <string value=""></string>
-                     <string role="key" value="content"></string>
-                     <string value=""></string>
-                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                     <int value="4"></int>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="_id"></string>
-                   <unicode value="4_120_2.22"></unicode>
-                   <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="24">
-                    <dictionary>
-                     <string role="key" value="_idevice"></string>
-                     <reference key="19"></reference>
-                     <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
-                     <string role="key" value="_storageName"></string>
-                     <string value="arduinoblocks_p2e.png"></string>
-                     <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/arduinoblocks_p2e.png"></string>
-                     <string role="key" value="checksum"></string>
-                     <string value="46f562403f3ba0a2d78ee1b27be265c1"></string>
-                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-                     <int value="2"></int>
-                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-                     <int value="2"></int>
-                     <string role="key" value="warningMsg"></string>
-                     <string value=""></string>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="_parent"></string>
-                   <reference key="20"></reference>
+                   <reference key="19"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -1317,15 +1263,15 @@
                  </instance>
                 </list>
                 <string role="key" value="idevice"></string>
-                <reference key="20"></reference>
+                <reference key="19"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="23"></int>
+              <int value="51"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="18"></reference>
+              <reference key="17"></reference>
              </dictionary>
             </instance>
            </list>
@@ -1342,17 +1288,17 @@
            <string role="key" value="originalicon"></string>
            <unicode value="activity"></unicode>
            <string role="key" value="parentNode"></string>
-           <reference key="18"></reference>
+           <reference key="17"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
            <bool value="1"></bool>
            <string role="key" value="userResources"></string>
            <list>
+            <reference key="20"></reference>
             <reference key="21"></reference>
             <reference key="22"></reference>
             <reference key="23"></reference>
-            <reference key="24"></reference>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
@@ -1379,13 +1325,13 @@
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="27">
+      <instance class="exe.engine.node.Node" reference="26">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Práctica 3. Datalogger remoto"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="25">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="24">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Task"></unicode>
@@ -1446,12 +1392,12 @@
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="26">
+            <instance class="exe.engine.field.TextAreaField" reference="25">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="120_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="25"></reference>
+              <reference key="24"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -1461,18 +1407,15 @@
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Emitir en formato JSON Temperatura y humedad de DHT22 de placa emisora. Recibir en placa receptora en formato JSON los datos emitidos y mostrarlos en una OLED 0.96”, para posteriormente graficarlos en puerto serie.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Ayuda&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;Conexionado Emisor:&lt;/p&gt;
+              <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Emitir en formato JSON Temperatura y humedad de DHT22 de placa emisora, además se muestran en pantalla OLED de emisor. Recibir en placa receptora en formato JSON los datos emitidos y mostrarlos en una OLED 0.96”, para posteriormente graficarlos en puerto serie.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Ayuda&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;Conexionado Emisor:&lt;/p&gt;
 &lt;p&gt;El sensor DHT22 se puede conectar a cualquier pin digital libre (IO26, IO25, IO17 e IO16).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/esp32_lora_dht22_bb.png&quot; alt=&quot;lora dht22&quot; title=&quot;lora dht22&quot; width=&quot;700&quot; height=&quot;621&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1552424&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa emisor&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p3e.png&quot; alt=&quot;p3 e&quot; title=&quot;p3 e&quot; width=&quot;700&quot; height=&quot;317&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/esp32_lora_oled_dht22_bb.png&quot; alt=&quot;lora oled dht22&quot; title=&quot;lora oled dht22&quot; width=&quot;699&quot; height=&quot;634&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1577509&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa emisor&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p3e.png&quot; alt=&quot;p3 e&quot; title=&quot;p3 e&quot; width=&quot;584&quot; height=&quot;700&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Conexionado receptor:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/esp32_lora_oled_bb.png&quot; alt=&quot;lora oled&quot; title=&quot;lora oled&quot; width=&quot;507&quot; height=&quot;700&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1552425&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa receptor&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p3r.png&quot; alt=&quot;p3 r&quot; title=&quot;p3 r&quot; width=&quot;700&quot; height=&quot;359&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1577532&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa receptor&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p3r.png&quot; alt=&quot;p3 r&quot; title=&quot;p3 r&quot; width=&quot;700&quot; height=&quot;378&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
               <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1492,7 +1435,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="306"></int>
+                     <int value="7593"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1506,20 +1449,72 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="5_120_2.16"></unicode>
+                   <unicode value="5_120_2.44"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="27">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="24"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="arduinoblocks_p3r.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="/tmp/tmpddXK2V/arduinoblocks_p3r.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="f98712b55ab11870e2fdb8a04cab4728"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="25"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="7594"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="5_120_2.45"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="28">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="25"></reference>
+                     <reference key="24"></reference>
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
-                     <string value="arduinoblocks_p3e.png"></string>
+                     <string value="esp32_lora_oled_dht22_bb.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/arduinoblocks_p3e.png"></string>
+                     <string value="/tmp/tmpddXK2V/esp32_lora_oled_dht22_bb.png"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="e8d4657afd02ed1e375b22a9acf6bd9a"></string>
+                     <string value="68ce9b25637c0f362c42c4f530202361"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -1529,7 +1524,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="26"></reference>
+                   <reference key="25"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -1544,7 +1539,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="307"></int>
+                     <int value="7605"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1558,70 +1553,18 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="5_120_2.17"></unicode>
+                   <unicode value="5_120_2.46"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="29">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="25"></reference>
-                     <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
-                     <string role="key" value="_storageName"></string>
-                     <string value="esp32_lora_dht22_bb.png"></string>
-                     <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/esp32_lora_dht22_bb.png"></string>
-                     <string role="key" value="checksum"></string>
-                     <string value="9a3928f098d7ffc683cc29f9385761cf"></string>
-                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-                     <int value="2"></int>
-                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-                     <int value="2"></int>
-                     <string role="key" value="warningMsg"></string>
-                     <string value=""></string>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="_parent"></string>
-                   <reference key="26"></reference>
-                   <string role="key" value="_thumbnailResource"></string>
-                   <none></none>
-                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="makeThumbnail"></string>
-                   <bool value="0"></bool>
-                  </dictionary>
-                 </instance>
-                 <instance class="exe.engine.galleryidevice.GalleryImage">
-                  <dictionary>
-                   <string role="key" value="_caption"></string>
-                   <instance class="exe.engine.field.TextField">
-                    <dictionary>
-                     <string role="key" value="_id"></string>
-                     <int value="310"></int>
-                     <string role="key" value="_idevice"></string>
-                     <none></none>
-                     <string role="key" value="_instruc"></string>
-                     <string value=""></string>
-                     <string role="key" value="_name"></string>
-                     <string value=""></string>
-                     <string role="key" value="content"></string>
-                     <string value=""></string>
-                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                     <int value="4"></int>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="_id"></string>
-                   <unicode value="5_120_2.18"></unicode>
-                   <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="30">
-                    <dictionary>
-                     <string role="key" value="_idevice"></string>
-                     <reference key="25"></reference>
+                     <reference key="24"></reference>
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="esp32_lora_oled_bb.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/esp32_lora_oled_bb.png"></string>
+                     <string value="/tmp/tmpddXK2V/esp32_lora_oled_bb.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="c779f51550d7851d540ec2b1085e955d"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1633,7 +1576,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="26"></reference>
+                   <reference key="25"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -1648,7 +1591,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="316"></int>
+                     <int value="7606"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1662,20 +1605,20 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="5_120_2.19"></unicode>
+                   <unicode value="5_120_2.47"></unicode>
                    <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="31">
+                   <instance class="exe.engine.resource.Resource" reference="30">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="25"></reference>
+                     <reference key="24"></reference>
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
-                     <string value="arduinoblocks_p3r.png"></string>
+                     <string value="arduinoblocks_p3e.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/arduinoblocks_p3r.png"></string>
+                     <string value="/tmp/tmpddXK2V/arduinoblocks_p3e.png"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="ecb964bcc66857e5ec30e27c744d4fed"></string>
+                     <string value="0d62e5486c4e9ae4f7db4845694e1526"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -1685,7 +1628,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="26"></reference>
+                   <reference key="25"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -1696,15 +1639,15 @@
                  </instance>
                 </list>
                 <string role="key" value="idevice"></string>
-                <reference key="26"></reference>
+                <reference key="25"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="20"></int>
+              <int value="48"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="27"></reference>
+              <reference key="26"></reference>
              </dictionary>
             </instance>
            </list>
@@ -1721,17 +1664,17 @@
            <string role="key" value="originalicon"></string>
            <unicode value="activity"></unicode>
            <string role="key" value="parentNode"></string>
-           <reference key="27"></reference>
+           <reference key="26"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
            <bool value="1"></bool>
            <string role="key" value="userResources"></string>
            <list>
+            <reference key="27"></reference>
             <reference key="28"></reference>
             <reference key="29"></reference>
             <reference key="30"></reference>
-            <reference key="31"></reference>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
@@ -1758,13 +1701,13 @@
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="34">
+      <instance class="exe.engine.node.Node" reference="33">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Práctica 4. Telecomandado"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="32">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="31">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Task"></unicode>
@@ -1825,12 +1768,12 @@
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="33">
+            <instance class="exe.engine.field.TextAreaField" reference="32">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="121_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="32"></reference>
+              <reference key="31"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -1840,15 +1783,14 @@
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Si la humedad supera en sitio a controlar (emisor) un umbral (por ejemplo 50%), suena en control (receptor) la marcha imperial y un chorro luces. En el emisor tendremos pantalla oled para ver el valor de humedad.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Ayuda&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;Conexionado Emisor:&lt;/p&gt;
+              <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Si la humedad supera en sitio a controlar (emisor) un umbral (por ejemplo 50%), suena en control (receptor) la marcha imperial y un chorro luces. Tanto en el emisor como en el receptor tendremos pantalla oled de 0,96&quot; para ver el valor de humedad.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Ayuda&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;Conexionado Emisor:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/esp32_oled_dht22_bb.png&quot; alt=&quot;lora dht22 oled&quot; title=&quot;lora dht22 oled&quot; width=&quot;700&quot; height=&quot;633&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1566152&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa emisor&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p4e.png&quot; alt=&quot;p4 e&quot; title=&quot;p4 e&quot; width=&quot;699&quot; height=&quot;317&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1583205&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa emisor&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p4e.png&quot; alt=&quot;p4 e&quot; title=&quot;p4 e&quot; width=&quot;700&quot; height=&quot;545&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Conexionado receptor:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/esp32_lora_buzzer_neopixel_bb.png&quot; alt=&quot;lora buzzer neopixel&quot; title=&quot;lora buzzer neopixel&quot; width=&quot;700&quot; height=&quot;810&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1566246&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa receptor&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p4r.png&quot; alt=&quot;p4 r&quot; title=&quot;p4 r&quot; width=&quot;700&quot; height=&quot;502&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;&lt;img src=&quot;resources/esp32_lora_buzzer_neopixel_oled_bb.png&quot; alt=&quot;lora buzzer neopixel&quot; title=&quot;lora buzzer neopixel&quot; width=&quot;594&quot; height=&quot;700&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1583223&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa receptor&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p4r.png&quot; alt=&quot;p4 r&quot; title=&quot;p4 r&quot; width=&quot;700&quot; height=&quot;362&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
               <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1868,7 +1810,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="301"></int>
+                     <int value="7595"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1882,20 +1824,20 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="6_121_2.4"></unicode>
+                   <unicode value="6_121_2.32"></unicode>
                    <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="35">
+                   <instance class="exe.engine.resource.Resource" reference="34">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="32"></reference>
+                     <reference key="31"></reference>
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
-                     <string value="esp32_lora_buzzer_neopixel_bb.png"></string>
+                     <string value="arduinoblocks_p4e.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/esp32_lora_buzzer_neopixel_bb.png"></string>
+                     <string value="/tmp/tmpddXK2V/arduinoblocks_p4e.png"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="bb94291efa1222bb3adf6f95f7c83e7f"></string>
+                     <string value="d51264e15e490b83232d1e47793b8b38"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -1905,7 +1847,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="33"></reference>
+                   <reference key="32"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -1920,7 +1862,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="305"></int>
+                     <int value="7600"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1934,18 +1876,18 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="6_121_2.5"></unicode>
+                   <unicode value="6_121_2.33"></unicode>
                    <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="36">
+                   <instance class="exe.engine.resource.Resource" reference="35">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="32"></reference>
+                     <reference key="31"></reference>
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="esp32_oled_dht22_bb.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/esp32_oled_dht22_bb.png"></string>
+                     <string value="/tmp/tmpddXK2V/esp32_oled_dht22_bb.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="6608bd37427e47f6d09d159f590cebf2"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1957,7 +1899,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="33"></reference>
+                   <reference key="32"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -1972,7 +1914,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="312"></int>
+                     <int value="7602"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1986,20 +1928,20 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="6_121_2.6"></unicode>
+                   <unicode value="6_121_2.34"></unicode>
                    <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="37">
+                   <instance class="exe.engine.resource.Resource" reference="36">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="32"></reference>
+                     <reference key="31"></reference>
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
-                     <string value="arduinoblocks_p4e.png"></string>
+                     <string value="esp32_lora_buzzer_neopixel_oled_bb.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/arduinoblocks_p4e.png"></string>
+                     <string value="/tmp/tmpddXK2V/esp32_lora_buzzer_neopixel_oled_bb.png"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="ddadba11bdc26f1026bd172a20a7e68d"></string>
+                     <string value="b3895dc2efaf7a162f8c22c8acb2fdfd"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -2009,7 +1951,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="33"></reference>
+                   <reference key="32"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -2024,7 +1966,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="315"></int>
+                     <int value="7610"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -2038,20 +1980,20 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="6_121_2.7"></unicode>
+                   <unicode value="6_121_2.35"></unicode>
                    <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="38">
+                   <instance class="exe.engine.resource.Resource" reference="37">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="32"></reference>
+                     <reference key="31"></reference>
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="arduinoblocks_p4r.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpGqQoDf/arduinoblocks_p4r.png"></string>
+                     <string value="/tmp/tmpb1pKzA.eXe/previews/allyourbase/arduinoblocks_p4r.png"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="5bfe98cfc3beae2ceb95c791b41e97e3"></string>
+                     <string value="de7d60883123a6c1825690dd017cb4c2"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -2061,7 +2003,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="33"></reference>
+                   <reference key="32"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -2072,15 +2014,15 @@
                  </instance>
                 </list>
                 <string role="key" value="idevice"></string>
-                <reference key="33"></reference>
+                <reference key="32"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="8"></int>
+              <int value="36"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="34"></reference>
+              <reference key="33"></reference>
              </dictionary>
             </instance>
            </list>
@@ -2097,17 +2039,17 @@
            <string role="key" value="originalicon"></string>
            <unicode value="activity"></unicode>
            <string role="key" value="parentNode"></string>
-           <reference key="34"></reference>
+           <reference key="33"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
            <bool value="1"></bool>
            <string role="key" value="userResources"></string>
            <list>
+            <reference key="34"></reference>
             <reference key="35"></reference>
             <reference key="36"></reference>
             <reference key="37"></reference>
-            <reference key="38"></reference>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
@@ -2134,6 +2076,533 @@
         <list></list>
        </dictionary>
       </instance>
+      <instance class="exe.engine.node.Node" reference="40">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Práctica 5. Datalogger Remoto sensor de partículas"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="38">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Task"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="pbl-tools"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Task"></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="pbl"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="39">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="120_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="38"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Se trata de medir los niveles de concentración de micropartículas y formaldehido en el emisor, y enviarlos cada cierto tiempo al receptor, realizando un graficado en tiempo real de los datos recibidos en el PC. Tanto en el emisor como en el receptor se mostrarán los datos en pantalla OLED de 0,96&quot;.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Ayuda&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;Conexionado emisor:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/lora_lcd_sensor_particulas.png&quot; alt=&quot;lora oled particulas&quot; title=&quot;lora oled particulas&quot; width=&quot;592&quot; height=&quot;700&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1583229&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa emisor&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p5e.png&quot; alt=&quot;p5 e&quot; title=&quot;p5 e&quot; width=&quot;700&quot; height=&quot;370&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Conexionado receptor:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/esp32_lora_oled_bb.png&quot; alt=&quot;lora oled&quot; title=&quot;lora oled&quot; width=&quot;507&quot; height=&quot;700&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1583231&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa receptor&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p5r.png&quot; alt=&quot;p5 r&quot; title=&quot;p5 r&quot; width=&quot;700&quot; height=&quot;422&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="7597"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="8_120_2.1"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="41">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="38"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="lora_lcd_sensor_particulas.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="/tmp/tmpddXK2V/lora_lcd_sensor_particulas.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="65ac516d766f7645ef16c2a19f0ea0b3"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="39"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="7607"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="8_120_2.2"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="42">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="38"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="arduinoblocks_p5e.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="/tmp/tmpb1pKzA.eXe/previews/allyourbase/arduinoblocks_p5e.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="835dd1ba250dc9ac03c38537a97d3c5f"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="39"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="7608"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="8_120_2.3"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="43">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="38"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="esp32_lora_oled_bb.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="/tmp/tmpb1pKzA.eXe/previews/allyourbase/esp32_lora_oled_bb.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="c779f51550d7851d540ec2b1085e955d"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="39"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="7609"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="8_120_2.4"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="44">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="38"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="arduinoblocks_p5r.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="/tmp/tmpb1pKzA.eXe/previews/allyourbase/arduinoblocks_p5r.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="e90625ff7748b3efb11f23d732e76aa9"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="39"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                </list>
+                <string role="key" value="idevice"></string>
+                <reference key="39"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="5"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="40"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="8"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="parentNode"></string>
+           <reference key="40"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="41"></reference>
+            <reference key="42"></reference>
+            <reference key="43"></reference>
+            <reference key="44"></reference>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="6"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Taller%20Comunicaciones%20LoRa%20con%20ESP32%20STEAMakers%20y%20Arduinoblocks:Pr%C3%A1ctica%205.%20Datalogger%20Remoto%20sensor%20de%20part%C3%ADculas"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="47">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Créditos"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="45">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Text"></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="46">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="120_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="45"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Prácticas diseñadas por &lt;em&gt;Federico Coca&lt;/em&gt; y &lt;em&gt;Pedro Ruiz&lt;/em&gt;, basadas en &lt;a href=&quot;https://drive.google.com/file/d/1tZecaEcz6yPZwbVpgCbpPG4LeU5A3kPs/view?pli=1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;LoRa y LoRaWAN Arduinoblocks + ESP32 STEAMakers&lt;/a&gt; de &lt;em&gt;Juanjo López&lt;/em&gt;.&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="46"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <none></none>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="9"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="47"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="7"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Taller%20Comunicaciones%20LoRa%20con%20ESP32%20STEAMakers%20y%20Arduinoblocks:Cr%C3%A9ditos"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
      </list>
     </dictionary>
    </instance>
@@ -2142,11 +2611,15 @@
    <unicode role="key" value="2"></unicode>
    <reference key="11"></reference>
    <unicode role="key" value="3"></unicode>
-   <reference key="18"></reference>
+   <reference key="17"></reference>
    <unicode role="key" value="4"></unicode>
-   <reference key="27"></reference>
+   <reference key="26"></reference>
    <unicode role="key" value="5"></unicode>
-   <reference key="34"></reference>
+   <reference key="33"></reference>
+   <unicode role="key" value="6"></unicode>
+   <reference key="40"></reference>
+   <unicode role="key" value="7"></unicode>
+   <reference key="47"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -2157,7 +2630,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="34"></reference>
+  <reference key="47"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -2476,7 +2949,7 @@
        <instance class="exe.engine.lom.lomsubs.contributeSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <instance class="exe.engine.lom.lomsubs.dateSub" reference="39">
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="48">
           <dictionary>
            <string role="key" value="dateTime"></string>
            <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
@@ -2515,7 +2988,7 @@
          </instance>
          <string role="key" value="entity"></string>
          <list>
-          <instance class="exe.engine.lom.lomsubs.entitySub" reference="40">
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="49">
            <dictionary>
             <string role="key" value="extensiontype_"></string>
             <none></none>
@@ -2530,7 +3003,7 @@
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="41">
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="50">
             <dictionary>
              <string role="key" value="extensiontype_"></string>
              <none></none>
@@ -2580,10 +3053,10 @@
        <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <reference key="39"></reference>
+         <reference key="48"></reference>
          <string role="key" value="entity"></string>
          <list>
-          <reference key="40"></reference>
+          <reference key="49"></reference>
          </list>
          <string role="key" value="role"></string>
          <instance class="exe.engine.lom.lomsubs.roleSub">
@@ -2591,7 +3064,7 @@
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <reference key="41"></reference>
+           <reference key="50"></reference>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
@@ -2965,7 +3438,7 @@
        <instance class="exe.engine.lom.lomsubs.contributeSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <instance class="exe.engine.lom.lomsubs.dateSub" reference="42">
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="51">
           <dictionary>
            <string role="key" value="dateTime"></string>
            <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
@@ -3004,7 +3477,7 @@
          </instance>
          <string role="key" value="entity"></string>
          <list>
-          <instance class="exe.engine.lom.lomsubs.entitySub" reference="43">
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="52">
            <dictionary>
             <string role="key" value="extensiontype_"></string>
             <none></none>
@@ -3019,7 +3492,7 @@
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="44">
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="53">
             <dictionary>
              <string role="key" value="extensiontype_"></string>
              <none></none>
@@ -3069,10 +3542,10 @@
        <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <reference key="42"></reference>
+         <reference key="51"></reference>
          <string role="key" value="entity"></string>
          <list>
-          <reference key="43"></reference>
+          <reference key="52"></reference>
          </list>
          <string role="key" value="role"></string>
          <instance class="exe.engine.lom.lomsubs.roleSub">
@@ -3080,7 +3553,7 @@
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <reference key="44"></reference>
+           <reference key="53"></reference>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
@@ -3255,64 +3728,76 @@
   <string value="2.8.1"></string>
   <string role="key" value="resources"></string>
   <dictionary>
-   <string role="key" value="46f562403f3ba0a2d78ee1b27be265c1"></string>
+   <string role="key" value="0d62e5486c4e9ae4f7db4845694e1526"></string>
    <list>
-    <reference key="24"></reference>
+    <reference key="30"></reference>
    </list>
-   <string role="key" value="5367b7f24edfa3b204017310f1c61dcc"></string>
+   <string role="key" value="324fa331dacc51b5bd46fd0fcc93dc32"></string>
    <list>
-    <reference key="23"></reference>
+    <reference key="20"></reference>
    </list>
-   <string role="key" value="5bfe98cfc3beae2ceb95c791b41e97e3"></string>
+   <string role="key" value="38398efdf65cbd004405b8e502709572"></string>
    <list>
-    <reference key="38"></reference>
+    <reference key="13"></reference>
+   </list>
+   <string role="key" value="432a853aee3d0ff76a11fe4a168a00af"></string>
+   <list>
+    <reference key="22"></reference>
+   </list>
+   <string role="key" value="65ac516d766f7645ef16c2a19f0ea0b3"></string>
+   <list>
+    <reference key="41"></reference>
    </list>
    <string role="key" value="6608bd37427e47f6d09d159f590cebf2"></string>
    <list>
-    <reference key="36"></reference>
+    <reference key="35"></reference>
    </list>
-   <string role="key" value="7a98ec669d15d16e6fe8c1a597bf720b"></string>
+   <string role="key" value="68ce9b25637c0f362c42c4f530202361"></string>
    <list>
-    <reference key="14"></reference>
+    <reference key="28"></reference>
    </list>
-   <string role="key" value="9a3928f098d7ffc683cc29f9385761cf"></string>
+   <string role="key" value="77874db72ae64a7d435d4565d4502dd0"></string>
    <list>
-    <reference key="29"></reference>
-   </list>
-   <string role="key" value="a1278046a52957918626c3991fab5dc7"></string>
-   <list>
-    <reference key="15"></reference>
-   </list>
-   <string role="key" value="a210def00cee89a6fad14e7ed1b589c5"></string>
-   <list>
-    <reference key="12"></reference>
     <reference key="21"></reference>
    </list>
-   <string role="key" value="bb94291efa1222bb3adf6f95f7c83e7f"></string>
+   <string role="key" value="835dd1ba250dc9ac03c38537a97d3c5f"></string>
    <list>
-    <reference key="35"></reference>
+    <reference key="42"></reference>
+   </list>
+   <string role="key" value="856f0f03594c8bb2adabd629deeb45f5"></string>
+   <list>
+    <reference key="12"></reference>
+   </list>
+   <string role="key" value="b3895dc2efaf7a162f8c22c8acb2fdfd"></string>
+   <list>
+    <reference key="36"></reference>
    </list>
    <string role="key" value="c779f51550d7851d540ec2b1085e955d"></string>
    <list>
-    <reference key="13"></reference>
-    <reference key="22"></reference>
-    <reference key="30"></reference>
+    <reference key="14"></reference>
+    <reference key="23"></reference>
+    <reference key="29"></reference>
+    <reference key="43"></reference>
    </list>
-   <string role="key" value="ddadba11bdc26f1026bd172a20a7e68d"></string>
+   <string role="key" value="d51264e15e490b83232d1e47793b8b38"></string>
+   <list>
+    <reference key="34"></reference>
+   </list>
+   <string role="key" value="de7d60883123a6c1825690dd017cb4c2"></string>
    <list>
     <reference key="37"></reference>
-   </list>
-   <string role="key" value="e8d4657afd02ed1e375b22a9acf6bd9a"></string>
-   <list>
-    <reference key="28"></reference>
    </list>
    <string role="key" value="e8df63ae516d030b640b30bc83ee14c7"></string>
    <list>
     <reference key="5"></reference>
    </list>
-   <string role="key" value="ecb964bcc66857e5ec30e27c744d4fed"></string>
+   <string role="key" value="e90625ff7748b3efb11f23d732e76aa9"></string>
    <list>
-    <reference key="31"></reference>
+    <reference key="44"></reference>
+   </list>
+   <string role="key" value="f98712b55ab11870e2fdb8a04cab4728"></string>
+   <list>
+    <reference key="27"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
