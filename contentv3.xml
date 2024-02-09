@@ -220,7 +220,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="conexion_lora.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="/tmp/tmpwCPAit/conexion_lora.png"></string>
+                  <string value="/tmp/tmpmjFHBE/conexion_lora.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="e8df63ae516d030b640b30bc83ee14c7"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -625,7 +625,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduinoblocks_p1e.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/arduinoblocks_p1e.png"></string>
+                     <string value="/tmp/tmpmjFHBE/arduinoblocks_p1e.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="856f0f03594c8bb2adabd629deeb45f5"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -677,7 +677,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduinoblocks_p1r.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/arduinoblocks_p1r.png"></string>
+                     <string value="/tmp/tmpmjFHBE/arduinoblocks_p1r.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="38398efdf65cbd004405b8e502709572"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -729,7 +729,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="esp32_lora_oled_bb.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/esp32_lora_oled_bb.png"></string>
+                     <string value="/tmp/tmpmjFHBE/esp32_lora_oled_bb.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="c779f51550d7851d540ec2b1085e955d"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1084,7 +1084,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduinoblocks_p2e.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/arduinoblocks_p2e.png"></string>
+                     <string value="/tmp/tmpmjFHBE/arduinoblocks_p2e.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="324fa331dacc51b5bd46fd0fcc93dc32"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1136,7 +1136,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduinoblocks_p2r_b.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/arduinoblocks_p2r_b.png"></string>
+                     <string value="/tmp/tmpmjFHBE/arduinoblocks_p2r_b.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="77874db72ae64a7d435d4565d4502dd0"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1188,7 +1188,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduinoblocks_p2r_a.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/arduinoblocks_p2r_a.png"></string>
+                     <string value="/tmp/tmpmjFHBE/arduinoblocks_p2r_a.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="432a853aee3d0ff76a11fe4a168a00af"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1240,7 +1240,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="esp32_lora_oled_bb.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/esp32_lora_oled_bb.png"></string>
+                     <string value="/tmp/tmpmjFHBE/esp32_lora_oled_bb.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="c779f51550d7851d540ec2b1085e955d"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1460,7 +1460,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduinoblocks_p3r.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/arduinoblocks_p3r.png"></string>
+                     <string value="/tmp/tmpmjFHBE/arduinoblocks_p3r.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="f98712b55ab11870e2fdb8a04cab4728"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1512,7 +1512,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="esp32_lora_oled_dht22_bb.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/esp32_lora_oled_dht22_bb.png"></string>
+                     <string value="/tmp/tmpmjFHBE/esp32_lora_oled_dht22_bb.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="68ce9b25637c0f362c42c4f530202361"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1564,7 +1564,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="esp32_lora_oled_bb.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/esp32_lora_oled_bb.png"></string>
+                     <string value="/tmp/tmpmjFHBE/esp32_lora_oled_bb.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="c779f51550d7851d540ec2b1085e955d"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1616,7 +1616,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduinoblocks_p3e.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/arduinoblocks_p3e.png"></string>
+                     <string value="/tmp/tmpmjFHBE/arduinoblocks_p3e.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="0d62e5486c4e9ae4f7db4845694e1526"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1785,11 +1785,11 @@
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Si la humedad supera en sitio a controlar (emisor) un umbral (por ejemplo 50%), suena en control (receptor) la marcha imperial y un chorro luces. Tanto en el emisor como en el receptor tendremos pantalla oled de 0,96&quot; para ver el valor de humedad.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Ayuda&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;Conexionado Emisor:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/esp32_oled_dht22_bb.png&quot; alt=&quot;lora dht22 oled&quot; title=&quot;lora dht22 oled&quot; width=&quot;700&quot; height=&quot;633&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1583205&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa emisor&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1599407&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa emisor&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p4e.png&quot; alt=&quot;p4 e&quot; title=&quot;p4 e&quot; width=&quot;700&quot; height=&quot;545&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Conexionado receptor:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/esp32_lora_buzzer_neopixel_oled_bb.png&quot; alt=&quot;lora buzzer neopixel&quot; title=&quot;lora buzzer neopixel&quot; width=&quot;594&quot; height=&quot;700&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1583223&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa receptor&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com/web/project/1599408&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Programa receptor&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/arduinoblocks_p4r.png&quot; alt=&quot;p4 r&quot; title=&quot;p4 r&quot; width=&quot;801&quot; height=&quot;487&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
@@ -1835,7 +1835,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduinoblocks_p4r.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/arduinoblocks_p4r.png"></string>
+                     <string value="/tmp/tmpmjFHBE/arduinoblocks_p4r.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="65bf8f0699044a461e4fe96d9e379c1b"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1887,7 +1887,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduinoblocks_p4e.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/arduinoblocks_p4e.png"></string>
+                     <string value="/tmp/tmpmjFHBE/arduinoblocks_p4e.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="d51264e15e490b83232d1e47793b8b38"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1939,7 +1939,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="esp32_oled_dht22_bb.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/esp32_oled_dht22_bb.png"></string>
+                     <string value="/tmp/tmpmjFHBE/esp32_oled_dht22_bb.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="6608bd37427e47f6d09d159f590cebf2"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1991,7 +1991,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="esp32_lora_buzzer_neopixel_oled_bb.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/esp32_lora_buzzer_neopixel_oled_bb.png"></string>
+                     <string value="/tmp/tmpmjFHBE/esp32_lora_buzzer_neopixel_oled_bb.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="b3895dc2efaf7a162f8c22c8acb2fdfd"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2210,7 +2210,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduinoblocks_p5e.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/arduinoblocks_p5e.png"></string>
+                     <string value="/tmp/tmpmjFHBE/arduinoblocks_p5e.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="835dd1ba250dc9ac03c38537a97d3c5f"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2262,7 +2262,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="lora_lcd_sensor_particulas.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/lora_lcd_sensor_particulas.png"></string>
+                     <string value="/tmp/tmpmjFHBE/lora_lcd_sensor_particulas.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="65ac516d766f7645ef16c2a19f0ea0b3"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2314,7 +2314,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="arduinoblocks_p5r.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/arduinoblocks_p5r.png"></string>
+                     <string value="/tmp/tmpmjFHBE/arduinoblocks_p5r.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="e90625ff7748b3efb11f23d732e76aa9"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2366,7 +2366,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="esp32_lora_oled_bb.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpwCPAit/esp32_lora_oled_bb.png"></string>
+                     <string value="/tmp/tmpmjFHBE/esp32_lora_oled_bb.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="c779f51550d7851d540ec2b1085e955d"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2495,7 +2495,7 @@
                 <string role="key" value="_storageName"></string>
                 <string value="particulas.pdf"></string>
                 <string role="key" value="_userName"></string>
-                <string value="/tmp/tmpwCPAit/particulas.pdf"></string>
+                <string value="/tmp/tmpmjFHBE/particulas.pdf"></string>
                 <string role="key" value="checksum"></string>
                 <string value="835a642c0dc99acea8a1d4baefd296c0"></string>
                 <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2809,7 +2809,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="40"></reference>
+  <reference key="4"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
